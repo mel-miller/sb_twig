@@ -1,0 +1,20 @@
+name: SB Twig POC
+type: theme
+description: "Drupal theme to demo sb-twig-poc."
+package: PDS
+core_version_requirement: "^8.8 || ^9"
+
+libraries:
+  - sb_twig_theme/global-css
+  - sb_twig_theme/global-js
+  - sb_twig_theme/bux-js
+
+ckeditor_stylesheets:
+  - css/main.css
+
+base theme: stable
+
+component-libraries:
+  bux:
+    paths:
+      - design-system/bux-composer/dist/twig
