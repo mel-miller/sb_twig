@@ -1,2 +1,2 @@
-# sb_twig_theme
-Drupal theme to demo sb-twig-poc
+# sb_twig
+Drupal theme to demo sb-twig-poc.
