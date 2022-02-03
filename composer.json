@@ -1,5 +1,5 @@
 {
-	"name": "mel-miller/sb_twig_theme",
+	"name": "mel-miller/sb_twig",
 	"description": "Drupal theme to demo sb-twig-poc.",
 	"type": "drupal-theme",
 	"require": {

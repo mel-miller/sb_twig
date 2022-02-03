@@ -5,16 +5,14 @@ package: PDS
 core_version_requirement: "^8.8 || ^9"
 
 libraries:
-  - sb_twig_theme/global-css
-  - sb_twig_theme/global-js
-  - sb_twig_theme/bux-js
+  - sb_twig/global-css
 
 ckeditor_stylesheets:
-  - css/main.css
+  - sb-twig-poc-composer/css/main.css
 
 base theme: stable
 
 component-libraries:
-  bux:
+  sb:
     paths:
-      - design-system/bux-composer/dist/twig
+      - sb-twig-poc-composer/twig
