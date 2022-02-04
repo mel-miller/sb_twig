@@ -2,3 +2,8 @@ global-css:
   css:
     theme:
       sb-twig-poc-composer/css/main.css: {}
+
+local-css:
+  css:
+    theme:
+      css/local.css: {}
