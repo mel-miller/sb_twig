@@ -19,6 +19,6 @@ regions:
   content: Content
 
 component-libraries:
-  sb:
+  sbtwig:
     paths:
       - sb-twig-poc-composer/twig

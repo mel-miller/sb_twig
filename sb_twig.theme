@@ -1,5 +1,7 @@
 <?php
 
+use \Drupal\block_content\BlockContentInterface;
+
 /**
  * @file
  * Functions to support theming.
@@ -9,7 +11,28 @@
  * Implements hook_preprocess().
  */
 function sb_twig_preprocess(array &$variables, $hook) {
-  //all-purpose variables
-  $variables['base_path'] = base_path();
-  $variables['sb'] = 'sb-twig-poc-composer';
+  // Global template variables.
+  $variables['image_dir'] = '/sb-twig-poc-composer/img';
+}
+
+/**
+ * Implements HOOK_preprocess_block().
+ *
+ * @param $variables
+ */
+function sb_twig_preprocess_block(&$variables) {
+  $content = $variables['elements']['content'];
+  if (isset($content['#block_content']) && $content['#block_content'] instanceof BlockContentInterface) {
+    // Sets block bundle variable.
+    $variables['block_bundle'] = $content['#block_content']->bundle();
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_block_alter().
+ */
+function sb_twig_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+  if (isset($variables['elements']['content']['#block_content'])) {
+    array_splice($suggestions, 1, 0, 'block__' . $variables['elements']['content']['#block_content']->bundle());
+  }
 }
