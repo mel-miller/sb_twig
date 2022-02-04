@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77be32512dcded4b1ac472509ebcc417",
+    "content-hash": "cbc1e06eace89c61aa7cd0d3e9177f0b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -207,23 +207,23 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.2.7",
+            "version": "3.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "deac27056b57e46faf136fae7b449eeaa71661ee"
+                "reference": "a951f614bd64dcd26137bc9b7b2637ddcfc57649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/deac27056b57e46faf136fae7b449eeaa71661ee",
-                "reference": "deac27056b57e46faf136fae7b449eeaa71661ee",
+                "url": "https://api.github.com/repos/composer/semver/zipball/a951f614bd64dcd26137bc9b7b2637ddcfc57649",
+                "reference": "a951f614bd64dcd26137bc9b7b2637ddcfc57649",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan": "^1.4",
                 "symfony/phpunit-bridge": "^4.2 || ^5"
             },
             "type": "library",
@@ -268,7 +268,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.2.7"
+                "source": "https://github.com/composer/semver/tree/3.2.9"
             },
             "funding": [
                 {
@@ -284,7 +284,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-04T09:57:54+00:00"
+            "time": "2022-02-04T13:58:43+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -4616,16 +4616,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.14.10",
+            "version": "v2.14.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "95fb194cd4dd6ac373a27af2bde2bad5d3f27aba"
+                "reference": "66baa66f29ee30e487e05f1679903e36eb01d727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/95fb194cd4dd6ac373a27af2bde2bad5d3f27aba",
-                "reference": "95fb194cd4dd6ac373a27af2bde2bad5d3f27aba",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66baa66f29ee30e487e05f1679903e36eb01d727",
+                "reference": "66baa66f29ee30e487e05f1679903e36eb01d727",
                 "shasum": ""
             },
             "require": {
@@ -4680,7 +4680,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.14.10"
+                "source": "https://github.com/twigphp/Twig/tree/v2.14.11"
             },
             "funding": [
                 {
@@ -4692,7 +4692,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-03T21:13:26+00:00"
+            "time": "2022-02-04T06:57:25+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
@@ -4757,12 +4757,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mel-miller/sb-twig-poc-composer.git",
-                "reference": "2bbb865bc5c5eb167092cd2498303000caa940b1"
+                "reference": "c63dc5502cee5035a2d7022f51b22524fc03b657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mel-miller/sb-twig-poc-composer/zipball/2bbb865bc5c5eb167092cd2498303000caa940b1",
-                "reference": "2bbb865bc5c5eb167092cd2498303000caa940b1",
+                "url": "https://api.github.com/repos/mel-miller/sb-twig-poc-composer/zipball/c63dc5502cee5035a2d7022f51b22524fc03b657",
+                "reference": "c63dc5502cee5035a2d7022f51b22524fc03b657",
                 "shasum": ""
             },
             "require": {
@@ -4784,7 +4784,7 @@
                 "source": "https://github.com/mel-miller/sb-twig-poc-composer/tree/main",
                 "issues": "https://github.com/mel-miller/sb-twig-poc-composer/issues"
             },
-            "time": "2022-02-03T19:55:46+00:00"
+            "time": "2022-02-04T20:16:31+00:00"
         }
     ],
     "aliases": [],
